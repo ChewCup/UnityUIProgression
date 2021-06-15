@@ -10,7 +10,7 @@ public class TaskManager : MonoBehaviour
     // Managing our quest
     public static TaskManager taskManager;
     public int amoutOfObjects;
-    public int amoutOftasks;
+    public int amoutOfTasks;
 
     // contains all available quests (questwindows)
     public List<Task> taskList = new List<Task>();
@@ -25,7 +25,7 @@ public class TaskManager : MonoBehaviour
     {
         // check amount of objects/tasks in game
         amoutOfObjects = GameObject.FindGameObjectsWithTag("Object").Length;
-        amoutOftasks = GameObject.FindGameObjectsWithTag("QuestWindow").Length;
+        amoutOfTasks = GameObject.FindGameObjectsWithTag("QuestWindow").Length;
     }
 
 }

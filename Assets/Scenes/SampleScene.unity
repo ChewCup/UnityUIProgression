@@ -456,7 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 1080245374}
   taskHandler: {fileID: 130989069}
-  taskManager: {fileID: 0}
+  taskManager: {fileID: 717031389}
   currentActiveObject: 0
   isActive: 0
 --- !u!54 &391563504
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 391563502}
   taskHandler: {fileID: 1656380675}
-  taskManager: {fileID: 0}
+  taskManager: {fileID: 717031389}
   currentActiveObject: 0
   isActive: 0
 --- !u!54 &495237498
@@ -714,9 +714,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab02b960338f2b4e96e132adc7a67d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherGameObject: {fileID: 0}
+  otherGameObject: {fileID: 1080245374}
   taskHandler: {fileID: 1551177186}
-  taskManager: {fileID: 0}
+  taskManager: {fileID: 717031389}
   currentActiveObject: 0
   isActive: 0
 --- !u!54 &499387048
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amoutOfObjects: 0
-  amoutOftasks: 0
+  amoutOfTasks: 0
   taskList:
   - questWindow: {fileID: 1263094722}
     status: 0
@@ -988,6 +988,7 @@ MonoBehaviour:
   - {fileID: 391563503}
   - {fileID: 1080245375}
   - {fileID: 499387047}
+  - {fileID: 495237497}
 --- !u!1 &765365150 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 825213883320696144, guid: b9ff0b2149a9fc14fa45a5549adb10e4, type: 3}
@@ -1028,7 +1029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherGameObject: {fileID: 499387046}
   taskHandler: {fileID: 1490277039}
-  taskManager: {fileID: 0}
+  taskManager: {fileID: 717031389}
   currentActiveObject: 0
   isActive: 0
 --- !u!54 &1080245376

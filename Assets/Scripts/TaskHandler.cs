@@ -50,9 +50,9 @@ public class TaskHandler : MonoBehaviour
                 taskManager.taskList[i].isDone = true;
                 taskManager.completedTaskList.Add(taskManager.taskList[i]);
                 taskManager.taskList.Remove(taskManager.taskList[i]);
-                ActiveObject();
                 QuestIsDone();
                 ActiveQuest(false);
+                ActiveObject();
             }
             else
             {
@@ -80,7 +80,7 @@ public class TaskHandler : MonoBehaviour
                 // Set the finished task object to not active
                 taskManager.taskObject[currentActiveObject].SetActiveStatus(false);
                 // Remove the inactive object
-                taskManager.taskObject.Remove(taskManager.taskObject[currentActiveObject]);
+                taskManager.taskObject.Remove(taskManager.taskObject[i]);
             }
         }
     }
